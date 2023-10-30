@@ -1,1 +1,1 @@
-*{margin:0}body .all-pictures{display:flex}body .all-pictures .one{border-radius:50px;margin:10px}body .all-pictures .two{border-radius:50px;margin:10px}body .all-pictures .three{border-radius:50px;margin:10px}body .four{border-radius:50px;margin:10px}body .five{border-radius:50px;margin:10px}
+*{margin:0}body .picture{width:100%;box-sizing:border-box;border-radius:50px;padding:10px;transition:all 1s ease-in}body .picture:hover{transform:scale(2)}body .all-pictures{display:grid;grid-template-rows:1fr 1fr;grid-template-columns:1fr 1fr 1fr}

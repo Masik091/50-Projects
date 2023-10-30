@@ -2,26 +2,22 @@
     margin: 0;
 }
 body{
+   
+    .picture {
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 50px;
+        padding: 10px;
+        transition: all 1s ease-in;
+    }
+
+    .picture:hover {
+        transform: scale(2);
+    }
+
     .all-pictures{
-        display: flex;
-    .one{
-        border-radius: 50px;
-            margin: 10px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
-    .two{
-        border-radius: 50px;
-            margin: 10px;
-    }
-    .three {border-radius: 50px;
-        margin: 10px;}
-    }
-    .four {
-        border-radius: 50px;
-        margin: 10px;
-    }
-    .five {
-        border-radius: 50px;
-        margin: 10px;
-    }
-        
 }
