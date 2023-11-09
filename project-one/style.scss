@@ -59,4 +59,22 @@ body{
         border-radius: 5px;
     }
     }
+
+.grid-avengers{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+                "img1"
+                "img2 img3 img4 img5"
+                "img6 img7 img8 img9 img10";
+    gap: 8px;
+
+    .image{
+        height: 400px;
+        width: 300px;
+        margin: 0;
+    }
+}
 }
