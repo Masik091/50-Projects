@@ -161,6 +161,7 @@ margin-top: 8px;  }
     
 }
 .one-button{
+    display: inline-block;
     background-color: #ffa500;
     border: #ffa500 solid;
     border-radius: 8px;
@@ -171,9 +172,9 @@ margin-top: 8px;  }
     cursor: pointer;   
     line-height: 24px; 
     
-    
 }
 .two-button{
+    display: inline-block;
     background-color: #1e90ff;
     border: #1e90ff solid;
     border-radius: 8px;
