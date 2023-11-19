@@ -202,32 +202,35 @@ max-width: 200px;}
      
 .red{
     background-color: red;
-    border-bottom: black dotted 1px;
-    border-right: black dotted 1px;
+    border-bottom: black dotted 2px;
+    border-right: black dotted 2px;
     padding: 20px;
 }
 .red-1{
     background-color: red;
-    border-right: black dotted 1px;
+    border-right: black dotted 2px;
     padding: 20px;
 
 }
 .blue{
     background-color: blue;
-    border-bottom: black dotted 1px;
-    border-right: black dotted 1px;
+    border-bottom: black dotted 2px;
+    border-right: black dotted 2px;
     padding: 20px;
 
 }
 .green{
     background-color: #008000;
-    border-bottom: black dotted 1px;
+    border-bottom: black dotted 2px;
     padding: 20px;
-
+}
+.green-1{
+    background-color: #008000;
+    padding: 20px;
 }
 .yellow{
     background-color: yellow;
-    border-right: black dotted 1px;
+    border-right: black dotted 2px;
     padding: 20px;
 
 }
