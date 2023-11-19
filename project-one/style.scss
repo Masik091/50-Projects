@@ -237,16 +237,37 @@ max-width: 200px;}
 }
 .disflex{
     display: flex;
-    flex-wrap: wrap;
     margin-top: 150px;
     justify-content: center;
     align-items: center;
+.subdisflex{
+    display: flex;
+    flex-wrap: wrap;
 
+}
 .feather{
     display: flex;
-        width: 20px;
-        height: 20px;
+    align-self: center;
+        width: 40px;
+        height: 40px;
         margin-right: 15px; 
+        background-color: inherit;
+
+.par-1{
+color: darkblue;
+font-weight: 600;
+margin-bottom: 20px;
+}
+.par-2{
+    color: darkolivegreen;
+    font-weight: 500;
+    margin-bottom: 40px;
+    
+}
+.par-3{
+    color: grey;
+    margin-bottom: 20px;
+    
 }
 }
 }
