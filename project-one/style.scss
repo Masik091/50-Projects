@@ -237,7 +237,8 @@ max-width: 200px;}
 }
 .onemore{
     display: flex;
-padding-bottom: 50px;}
+padding-bottom: 50px;
+row-gap: 20px;}
 .disflex{
     display: flex;
     margin-top: 150px;
@@ -253,9 +254,9 @@ padding-bottom: 50px;}
 justify-content: center;
     width: 40px;
     height: 40px;
-    margin-right: 15px; 
-    background-color: inherit;
-
+margin-left: 200px;
+margin-right: auto;
+    
 .par-1{
 color: darkblue;
 font-weight: 600;
