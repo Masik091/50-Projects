@@ -185,4 +185,11 @@ justify-content: center;
     cursor: pointer;
     line-height: 24px; 
 max-width: 200px;}
+
+.container-grid{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 }
