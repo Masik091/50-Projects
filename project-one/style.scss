@@ -1,7 +1,7 @@
 * {
     margin: 0;
 }
-body{
+body {
    
     .picture {
         width: 100%;
@@ -191,47 +191,48 @@ max-width: 200px;}
     justify-content: center;
     align-items: center;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-area: "item1 item2 item3"
-    "item4 item5 item6";
+    grid-template-areas: 
+    "redcolor yellowcolor yellowcolor"
+    "redcolor bluecolor greencolor";
     margin-left: 500px; 
     margin-right: 500px; 
     text-align: center;
 
-     
+
 .red{
+    grid-area: redcolor;
     background-color: red;
     border-bottom: black dotted 2px;
     border-right: black dotted 2px;
     padding: 20px;
+    height: 100%;
 }
-.red-1{
-    background-color: red;
-    border-right: black dotted 2px;
-    padding: 20px;
 
-}
 .blue{
+    grid-area: bluecolor;
     background-color: blue;
     border-bottom: black dotted 2px;
     border-right: black dotted 2px;
     padding: 20px;
+    height: 100%;
 
 }
 .green{
+    grid-area: greencolor;
     background-color: #008000;
     border-bottom: black dotted 2px;
     padding: 20px;
+    height: 100%;
 }
-.green-1{
-    background-color: #008000;
-    padding: 20px;
-}
+
 .yellow{
+    grid-area: yellowcolor;
     background-color: yellow;
     border-right: black dotted 2px;
     padding: 20px;
+    height: 100%;
 
 }
 }
@@ -270,6 +271,55 @@ margin-bottom: 20px;
 }
 .par-3{
   
+}
+}
+}
+.container-for-grid{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "orangecolor orangecolor orangecolor"
+    "yellow-2 red-2 blue-2"
+    "pinkcolor pinkcolor .";
+    margin-top: 150px;
+    max-width: 700px;
+    max-height: 700px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 200px;
+    margin-left: 200px;
+.orangecolor{
+    grid-area: orangecolor;
+    background-color: #ffa500;
+    width: 100%;
+    height: 100%;
+}
+.yellow-2{
+    grid-area: yellow-2;
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+}
+.red-2{
+    grid-area: red-2;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+.blue-2{
+    grid-area: blue-2;
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+
+}
+.pinkcolor{
+    grid-area: pinkcolor;
+    background-color: pink;
+    width: 100%;
+    height: 100%;
 }
 }
 }
