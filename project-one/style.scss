@@ -322,4 +322,65 @@ margin-bottom: 20px;
     height: 100%;
 }
 }
+.containergrid{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 1fr;
+    grid-template-rows: 5fr 1fr 4fr 1fr;
+    grid-template-areas: 
+    "pinkcolor1 red-3 red-3 viola"
+    "pinkcolor1 browncolor yellow-3 viola"
+    "pinkcolor1 browncolor yellow-3 ."
+    "green-2 green-2 yellow-3 blue-3";
+    margin-top: 150px;
+    max-width: 700px;
+    max-height: 700px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 200px;
+    margin-left: 200px;
+
+.pinkcolor1{
+    grid-area: pinkcolor1;
+    background-color: pink;
+    width: 100%;
+    height: 100%;
+}
+.red-3{
+    grid-area: red-3;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+.viola{
+    grid-area: viola;
+    background-color:violet;
+    width: 100%;
+    height: 100%;
+}
+.browncolor{
+    grid-area: browncolor;
+    background-color: brown;
+    width: 100%;
+    height: 100%;
+}
+.yellow-3 {
+    grid-area: yellow-3;
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+}
+.green-2{
+    grid-area: green-2;
+    background-color: green;
+    width: 100%;
+    height: 100%;
+}
+.blue-3{
+    grid-area: blue-3;
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+}
+}
 }
