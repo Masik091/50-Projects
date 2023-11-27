@@ -276,7 +276,7 @@ margin-bottom: 20px;
 }
 }
 
-.container-for-grid{
+.container-for-grid{ 
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -385,4 +385,298 @@ margin-bottom: 20px;
     height: 100%;
 }
 }
+.periodic{
+
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    background-color: darkslategray;
+
+    .title{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+    .suntext{
+     
+        font-size: 10px;
+        font-weight: 500;
+        color: #fff;
+    }
 }
+
+.gridnessgrid {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "li fb . . . .db ct sl"
+    "wk sp tw tc gt yn ii te wu"
+    "cv dg tg gg ex so cp cd tr"
+    ". in mu me no re rd st ad";
+    gap: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+    .element{
+        display: flex;
+        justify-content: left;
+        padding-left: 8px;
+        padding-top: 10px;
+    }
+
+    .li{
+        grid-area: li;
+        width: 100%;
+        height: 100%;
+        color: greenyellow;
+        border: 1px solid;
+        border-color: greenyellow;
+        
+    }
+    .fb{
+        grid-area: fb;
+        width: 100%;
+        height: 100%;
+        color: greenyellow;
+        border: 1px solid;
+        border-color: greenyellow;
+    }
+    .db{
+        grid-area: db;
+        width: 100%;
+        height: 100%;
+        color: blue;
+        border: 1px solid;
+        border-color: blue;
+    }
+    .ct{
+        grid-area: ct;
+        width: 100%;
+        height: 100%;
+        color: lightgreen;
+        border: 1px solid;
+        border-color: lightgreen;
+    }
+    .sl{
+        grid-area: sl;
+        width: 100%;
+        height: 100%;
+        color: lightgreen;
+        border: 1px solid;
+        border-color: lightgreen;
+    }
+    .wk{
+        grid-area: wk;
+        width: 100%;
+        height: 100%;
+        color: lightcoral;
+        border: 1px solid;
+        border-color: lightcoral;
+    }
+    .sp{
+        grid-area: sp;
+        width: 100%;
+        height: 100%;
+        color: lightcoral;
+        border: 1px solid;
+        border-color: lightcoral;
+    }
+    .tw{
+        grid-area: tw;
+        width: 100%;
+        height: 100%;
+        color: yellow;
+        border: 1px solid;
+        border-color: yellow;
+    }
+    .tc {
+        grid-area: tc;
+        width: 100%;
+        height: 100%;
+        height: 100%;
+        color: yellow;
+        border: 1px solid;
+        border-color: yellow;
+    }
+    .gt {
+        grid-area:gt;
+        width: 100%;
+        height: 100%;
+        color: yellowgreen;
+        border: 1px solid;
+        border-color: yellowgreen;
+    }
+    .yn {
+        grid-area: yn;
+        width: 100%;
+        height: 100%;
+        color: yellowgreen;
+        border: 1px solid;
+        border-color: yellowgreen;
+    }
+    .ii {
+        grid-area: ii;
+        width: 100%;
+        height: 100%;
+        color: blue;
+        border: 1px solid;
+        border-color: blue;
+    }
+    .te {
+        grid-area: te;
+        width: 100%;
+        height: 100%;
+        color: blue;
+        border: 1px solid;
+        border-color: blue;
+    }
+    .wu {
+        grid-area: wu;
+        width: 100%;
+        height: 100%;
+        color: lightblue;
+        border: 1px solid;
+        border-color: lightblue;
+    }
+    .cv {
+            grid-area: cv;
+            width: 100%;
+            height: 100%;
+            color: lightcoral;
+            border: 1px solid;
+            border-color: lightcoral;
+
+        }
+    .dg {
+            grid-area: dg;
+            width: 100%;
+            height: 100%;
+            color: lightcoral;
+            border: 1px solid;
+            border-color: lightcoral;
+        }
+    .tg {
+            grid-area: tg;
+            width: 100%;
+            height: 100%;
+            color: lightcoral;
+            border: 1px solid;
+            border-color: lightcoral;
+        }
+    .gg {
+            grid-area: cg;
+            width: 100%;
+            height: 100%;
+            color: blue;
+            border: 1px solid;
+            border-color: blue;
+        }
+    .ex {
+            grid-area: ex;
+            width: 100%;
+            height: 100%;
+            color: blue;
+            border: 1px solid;
+            border-color: blue;
+        }
+    .so {
+            grid-area: so;
+            width: 100%;
+            height: 100%;
+            color: yellowgreen;
+            border: 1px solid;
+            border-color: yellowgreen;
+        }
+    .cp {
+            grid-area: cp;
+            width: 100%;
+            height: 100%;
+            color: yellowgreen;
+            border: 1px solid;
+            border-color: yellowgreen;
+        }
+    .cd {
+            grid-area: cd;
+            width: 100%;
+            height: 100%;
+            color: blue;
+            border: 1px solid;
+            border-color: blue;
+        }
+    .tr{
+            grid-area: tr;
+            width: 100%;
+            height: 100%;
+            color: blue;
+            border: 1px solid;
+            border-color: blue;
+        }
+    .in {
+        grid-area: in;
+        width: 100%;
+        height: 100%;
+        color: yellow;
+        border: 1px solid;
+        border-color: yellow;
+    }
+    .mu {
+        grid-area: mu;
+        width: 100%;
+        height: 100%;
+        color: lightcoral;
+        border: 1px solid;
+        border-color: lightcoral;
+    }
+    .me {
+        grid-area: me;
+        width: 100%;
+        height: 100%;
+        color: lightcoral;
+        border: 1px solid;
+        border-color: lightcoral;
+    }
+    .no {
+        grid-area: no;
+        width: 100%;
+        height: 100%;
+        color: #00FF00;
+        border: 1px solid;
+        border-color: #00FF00;
+    }
+    .re {
+        grid-area: re;
+        width: 100%;
+        height: 100%;
+        color: yellow;
+        border: 1px solid;
+        border-color: yellow;
+    }
+    .rd {
+        grid-area: rd;
+        width: 100%;
+        height: 100%;
+        color: yellowgreen;
+        border: 1px solid;
+        border-color: yellowgreen;
+    }
+    .st {
+        grid-area: st;
+        width: 100%;
+        height: 100%;
+        color: yellowgreen;
+        border: 1px solid;
+        border-color: yellowgreen;
+    }
+    .ad {
+        grid-area: ad;
+        width: 100%;
+        height: 100%;
+        color: yellowgreen;
+        border: 1px solid;
+        border-color: yellowgreen;}}
