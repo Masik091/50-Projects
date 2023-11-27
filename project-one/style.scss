@@ -689,4 +689,13 @@ margin-bottom: 20px;
         border-color: yellowgreen;
     }}
 }}
+.sentence::before{
+    content: "";
+    background-image: url(./50-projects-images/quotation-mark1.png);
+
+}
+.sentence::after{
+    content: "";
+    background-image: url(./50-projects-images/quotation-mark2.png);
+}
     
