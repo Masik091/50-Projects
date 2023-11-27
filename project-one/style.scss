@@ -270,9 +270,7 @@ margin-bottom: 20px;
     margin-bottom: 40px;
     
 }
-.par-3{
-  
-}
+
 }
 }
 
@@ -385,14 +383,12 @@ margin-bottom: 20px;
     height: 100%;
 }
 }
+
 .periodic{
 
-    margin-top: 150px;
-    justify-content: center;
-    align-items: center;
-    padding-top: 40px;
-    background-color: darkslategray;
-
+    margin: 150px 100px;
+    background-color: darkgray;
+    
     .title{
         display: flex;
         justify-content: center;
@@ -401,15 +397,13 @@ margin-bottom: 20px;
         margin-bottom: 10px;
         color: #fff;
     }
-    .suntext{
-     
+    .subtext{
         font-size: 10px;
         font-weight: 500;
-        color: #fff;
     }
-}
-
-.gridnessgrid {
+    
+    .gridnessgrid 
+    {
     box-sizing: border-box;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -422,6 +416,7 @@ margin-bottom: 20px;
     gap: 5px;
     margin-top: 15px;
     margin-bottom: 20px;
+    background-color: darkgray;
 
     .element{
         display: flex;
@@ -437,8 +432,8 @@ margin-bottom: 20px;
         color: greenyellow;
         border: 1px solid;
         border-color: greenyellow;
-        
     }
+
     .fb{
         grid-area: fb;
         width: 100%;
@@ -447,6 +442,7 @@ margin-bottom: 20px;
         border: 1px solid;
         border-color: greenyellow;
     }
+
     .db{
         grid-area: db;
         width: 100%;
@@ -463,6 +459,7 @@ margin-bottom: 20px;
         border: 1px solid;
         border-color: lightgreen;
     }
+
     .sl{
         grid-area: sl;
         width: 100%;
@@ -487,7 +484,7 @@ margin-bottom: 20px;
         border: 1px solid;
         border-color: lightcoral;
     }
-    .tw{
+    .tw {
         grid-area: tw;
         width: 100%;
         height: 100%;
@@ -495,6 +492,7 @@ margin-bottom: 20px;
         border: 1px solid;
         border-color: yellow;
     }
+
     .tc {
         grid-area: tc;
         width: 100%;
@@ -679,4 +677,6 @@ margin-bottom: 20px;
         height: 100%;
         color: yellowgreen;
         border: 1px solid;
-        border-color: yellowgreen;}}
+        border-color: yellowgreen;
+    }}}
+    
