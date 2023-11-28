@@ -689,13 +689,39 @@ margin-bottom: 20px;
         border-color: yellowgreen;
     }}
 }}
+
+.sentence{
+    display: flex;
+}
 .sentence::before{
     content: "";
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+    background-repeat: no-repeat;
     background-image: url(./50-projects-images/quotation-mark1.png);
 
 }
 .sentence::after{
     content: "";
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+    background-repeat: no-repeat;
     background-image: url(./50-projects-images/quotation-mark2.png);
+}
+.hello{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.hello::before
+{
+    content: "<<";
+    font-size: 10px;
+}
+.hello::after{
+    content: ">>";
+        font-size: 10px;
 }
     
