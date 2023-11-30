@@ -724,4 +724,97 @@ margin-bottom: 20px;
     content: ">>";
         font-size: 10px;
 }
+.parent{
+    box-sizing: border-box;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: darkcyan;
+    .mainname{
+        font-size: 60px;
+        font-weight: 700;
+        color: #fff;
+        padding-bottom: 20px;
+    }
+    .child{
+        background-color: #fff;
+    }
+    .child-1{
+        border-bottom: 1px solid lightgrey;
+        
+    }
+    .child-2{        
+        border-bottom: 1px solid lightgrey;
+       }
+    .child-3{        
+        border-bottom: 1px solid lightgrey;
+        }
+    .fonty{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .combo{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .money{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .year{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .money::before{
+        content: "$";
+        font-size: 50px;
+    }
+    .year::before{
+        content: "/";
+        font-size: 25px;
+    }
+    .button-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkcyan;
+        background-color: lightgrey;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .button-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background-color: blue; 
+        margin-left: 20px;
+        margin-right: 20px; 
+    }
+    .mainlist{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        padding-bottom: 35px;
+    }
+    .listy{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .listy::before{
+        content: "";
+        width: 20px;
+        height: 20px;
+        background-size: 20px;
+        background-repeat: no-repeat;
+        background-image: url(./50-projects-images/checkimage.png);
+    }
+    .parent:first-child()
+    .parent:last-child()
+    .parent:nth-child()
+}
     
