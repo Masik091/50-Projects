@@ -724,19 +724,25 @@ margin-bottom: 20px;
     content: ">>";
         font-size: 10px;
 }
-.parent{
+.mainparent{
     box-sizing: border-box;
     margin-top: 150px;
-    margin-bottom: 150px;
     background-color: darkcyan;
     .mainname{
+        display: flex;
+        justify-content: center;
         font-size: 60px;
         font-weight: 700;
         color: #fff;
         padding-bottom: 20px;
     }
+}
+.parent{
+   display: flex;
+    
     .child{
         background-color: #fff;
+        box-sizing: border-box;
     }
     .child-1{
         border-bottom: 1px solid lightgrey;
