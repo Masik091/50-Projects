@@ -739,94 +739,104 @@ margin-bottom: 20px;
 }
 .parent{
    display: flex;
-    
-    .child{
-        display: flex;
-        background-color: #fff;
-        box-sizing: border-box;
-        flex-wrap: wrap;
-    }
-    .child-1{
-        border-bottom: 1px solid lightgrey;
-        
-    }
-    .child-2{        
-        border-bottom: 1px solid lightgrey;
-       }
-    .child-3{        
-        border-bottom: 1px solid lightgrey;
-        }
-    .fonty{
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        font-size: 40px;
-        font-weight: 600;
-    }
-    .combo{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 30px;
-    }
-    .money{
-        font-size: 50px;
-        font-weight: 700;
-    }
-    .year{
-        font-size: 25px;
-        font-weight: 400;
-        display: flex;
-        align-items: baseline;
-    }
-    .money::before{
-        content: "$";
-        font-size: 50px;
-    }
-    .year::before{
-        content: "/";
-        font-size: 25px;
-    }
-    .button-1{
-        display: block;
-        justify-content: center;
-        align-items: center;
-        color: darkcyan;
-        background-color: lightgrey;
-        margin-left: 20px;
-        margin-right: 20px;
-        max-width: 200px;
-    }
-    .button-2{
-        display: block;
-        justify-content: center;
-        align-items: center;
-        color: #fff;
-        background-color: blue; 
-        margin-left: 20px;
-        margin-right: 20px; 
-        max-width: 200px;
-    }
-    .mainlist{
-        display: flex;
-        flex-direction: column;
-        row-gap: 15px;
-        padding-bottom: 35px;
-    }
-    .listy{
-        font-size: 40px;
-        font-weight: 500;
-    }
-    .listy::before{
-        content: "";
-        width: 20px;
-        height: 20px;
-        background-size: 20px;
-        background-repeat: no-repeat;
-        background-image: url(./50-projects-images/checkimage.png);
-    }
-    .parent:first-child()
-    .parent:last-child()
-    .parent:nth-child()
+   justify-content: center;
+   column-gap: 8px;
 }
+.child{
+    display: flex;
+    background-color: #fff;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.child-1{
+    border-bottom: 1px solid lightgrey;
+    
+}
+.child-2{        
+    border-bottom: 1px solid lightgrey;
+   }
+.child-3{        
+    border-bottom: 1px solid lightgrey;
+    }
+.fonty{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.combo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.money{
+    font-size: 50px;
+    font-weight: 700;
+}
+.year{
+    font-size: 25px;
+    font-weight: 400;
+    display: flex;
+    align-items: baseline;
+}
+.money::before{
+    content: "$";
+    font-size: 50px;
+}
+.year::before{
+    content: "/";
+    font-size: 25px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button-1{
+    display: block;
+    color: darkcyan;
+    background-color: lightgrey;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 200px;
+    cursor: pointer;
+    line-height: 24px; 
+    margin-bottom: 10px;
+}
+.button-2{
+    display: block;
+    color: #fff;
+    background-color: blue; 
+    margin-left: 20px;
+    margin-right: 20px; 
+    max-width: 200px;
+    cursor: pointer;
+    line-height: 24px; 
+    margin-bottom: 10px;
+
+}
+.mainlist{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding-bottom: 35px;
+}
+.listy{
+    font-size: 40px;
+    font-weight: 500;
+}
+.listy::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-image: url(./50-projects-images/checkimage.png);
+}
+.parent:first-child()
+.parent:last-child()
+.parent:nth-child()
+
     
