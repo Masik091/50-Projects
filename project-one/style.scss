@@ -884,6 +884,7 @@ div.child:last-child{
     display: flex;
     justify-content: center;
     column-gap: 1px;
+    align-items: center;
 
 
     .top{
@@ -944,5 +945,15 @@ div.child:last-child{
         display: flex;
         flex-direction: column;
         box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+        justify-content: space-between;
+        background: linear-gradient(313deg, rgb(121, 9, 104) 0%, rgb(121, 9, 61) 30%, #d9ea44 50%, rgb(56, 68, 149) 100%);
+    }
+    div.kid:first-child,
+    div.kid:last-child{
+        width: 30%;
+        height: 600px;
+    }
+    div.kid:nth-child(2){
+        height: 700px;
     }
 }
