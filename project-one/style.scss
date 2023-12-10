@@ -958,15 +958,19 @@ div.child:last-child{
     }
 }
 .justline{
+    display: flex;
+    justify-content: center;
     margin: 100px auto;
+    box-sizing: border-box;
 }
 .linegrid{
     display: grid;
     justify-content: center;
-    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
-    grid-template-areas: "1 2 3 4 5 img 10 20";
+    grid-template-rows: 1fr;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-areas: "one two three four five six ten twenty";
     gap: 5px;
-
+}
 .one{
     grid-area: one;
     width: 100%;
@@ -995,6 +999,7 @@ div.child:last-child{
     color: blue;
     background-color: lightgrey;   
     border: 1px solid #008000;
+    box-sizing: border-box;
 }
 .five{
     grid-area: five;
@@ -1022,5 +1027,19 @@ div.child:last-child{
     color: blue;
     background-color: lightgrey;  
     border: 1px solid red;
+    box-sizing: border-box;
 }
+.linegrid::after{
+    content: "";
+    display: block;
+    margin
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-image: url(./50-projects-images/arrowpic.png);
+    margin-right: 10px;
+}
+.three-dots{
+    background: 50px;
 }
