@@ -957,3 +957,70 @@ div.child:last-child{
         height: 700px;
     }
 }
+.justline{
+    margin: 100px auto;
+}
+.linegrid{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-areas: "1 2 3 4 5 img 10 20";
+    gap: 5px;
+
+.one{
+    grid-area: one;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: blue;
+}
+.two{
+    grid-area: two;
+    width: 100%;
+    height: 100%;
+    color: blue;
+    background-color: lightgrey;   
+}
+.three{
+    grid-area: three;
+    width: 100%;
+    height: 100%;
+    color: blue;
+    background-color: lightgrey;   
+}
+.four{
+    grid-area: four;
+    width: 100%;
+    height: 100%;
+    color: blue;
+    background-color: lightgrey;   
+    border: 1px solid #008000;
+}
+.five{
+    grid-area: five;
+    width: 100%;
+    height: 100%;
+    color: blue;
+    background-color: lightgrey;  
+}
+.six{
+    grid-area: six;
+    width: 100%;
+    height: 100%;
+}
+.ten{
+    grid-area: ten;
+    width: 100%;
+    height: 100%;
+    color: blue;
+    background-color: lightgrey;  
+}
+.twenty{
+    grid-area: twenty;
+    width: 100%;
+    height: 100%;
+    color: blue;
+    background-color: lightgrey;  
+    border: 1px solid red;
+}
+}
