@@ -975,6 +975,10 @@ div.child:last-child{
 
 .one{
     grid-area: one;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
     width: 100%;
     height: 100%;
     color: #fff;
@@ -1035,8 +1039,9 @@ div.child:last-child{
 .linegrid::after{
     content: "";
     display: block;
+    align-self: center;
     width: 50px;
-    height: 50px;
+    height: 32px;
     background-size: 50px;
     background-repeat: no-repeat;
     background-image: url(./50-projects-images/arrowpic.png);
@@ -1081,8 +1086,9 @@ li.number:nth-child(4):hover{
 }
 ul:last-child::after{
     content: "";
+    align-self: center;
     width: 60px;
-    height: 60px;
+    height: 40px;
     background-size: 60px;
     background-repeat: no-repeat;
     background-image: url(./50-projects-images/arrowpic.png);
