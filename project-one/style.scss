@@ -1035,7 +1035,6 @@ div.child:last-child{
 .linegrid::after{
     content: "";
     display: block;
-    margin
     width: 50px;
     height: 50px;
     background-size: 50px;
@@ -1049,6 +1048,43 @@ div.child:last-child{
 
 .newcontainer{
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 100px;
 
+.listnumber{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+
+}
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px dashed darkmagenta;
+    font-size: 30px;
+    font-weight: 500;
+    width: 60px;
+    height: 60px;
+}
+li.number:first-child:hover{
+background-color: darkblue;
+color: white;
+}
+li.number:nth-child(4):hover{
+    border: 1px solid red;
+    color: #00FF00;
+    font-weight: 700;
+}
+ul:last-child::after{
+    content: "";
+    width: 60px;
+    height: 60px;
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-image: url(./50-projects-images/arrowpic.png);
+}
 }
