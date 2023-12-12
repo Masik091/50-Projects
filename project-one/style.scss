@@ -1087,4 +1087,11 @@ ul:last-child::after{
     background-repeat: no-repeat;
     background-image: url(./50-projects-images/arrowpic.png);
 }
+li.number:nth-child(6){
+    background-color: #d9ea44;
+}
+.imge:hover{
+    border: 0.1px;
+    background: linear-gradient(243deg, rgb(253, 170, 246) 0%, rgb(252, 123, 79) 30%, #e3f25f 50%, rgb(95, 229, 246) 100%);;
+}
 }
