@@ -968,17 +968,17 @@ div.child:last-child{
     justify-content: center;
     grid-template-rows: 1fr;
     grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
-    grid-template-areas: "one two three four five six ten twenty";
+    grid-template-areas: "ones two three four five six ten twenty";
     gap: 5px;
 }
 
 
-.one{
-    grid-area: one;
+.ones{
+    grid-area: ones;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 30px;
     width: 100%;
     height: 100%;
     color: #fff;
@@ -987,6 +987,10 @@ div.child:last-child{
 }
 .two{
     grid-area: two;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
     width: 100%;
     height: 100%;
     color: blue;
@@ -994,6 +998,10 @@ div.child:last-child{
 }
 .three{
     grid-area: three;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
     width: 100%;
     height: 100%;
     color: blue;
@@ -1001,6 +1009,10 @@ div.child:last-child{
 }
 .four{
     grid-area: four;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
     width: 100%;
     height: 100%;
     color: blue;
@@ -1010,6 +1022,10 @@ div.child:last-child{
 }
 .five{
     grid-area: five;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
     width: 100%;
     height: 100%;
     color: blue;
@@ -1017,11 +1033,19 @@ div.child:last-child{
 }
 .six{
     grid-area: six;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
     width: 100%;
     height: 100%;
 }
 .ten{
     grid-area: ten;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
     width: 100%;
     height: 100%;
     color: blue;
@@ -1029,6 +1053,10 @@ div.child:last-child{
 }
 .twenty{
     grid-area: twenty;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
     width: 100%;
     height: 100%;
     color: blue;
@@ -1100,4 +1128,43 @@ li.number:nth-child(6){
     border: 0.1px;
     background: linear-gradient(243deg, rgb(253, 170, 246) 0%, rgb(252, 123, 79) 30%, #e3f25f 50%, rgb(95, 229, 246) 100%);;
 }
+}
+.positioning{
+position: relative;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: 300px;
+    border: 6px dashed #d9ea44;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-bottom: 150px;
+    column-gap: 10px;
+}
+.sticky{
+    position: sticky;
+    top: -1px;
+}
+.relative{
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.abcolute{
+    position: absolute;
+    right: 400px;
+    top: 12px;
+}
+.fixed{
+    position: fixed;
+    left: 350px;
+    top: 12px;
+}
+.whatever{
+    font-size: 50px;
 }
