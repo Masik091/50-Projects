@@ -73,20 +73,60 @@ body {
 .grid-avengers{
     box-sizing: border-box;
     display: grid;
+    justify-content: center;
+    align-items: center;
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr 1fr;
     grid-template-areas:
-                "img1"
-                "img2 img3 img4 img5"
-                "img6 img7 img8 img9 img10";
-    gap: 8px;
-
-    .image{
-        height: 400px;
-        width: 300px;
-        margin: 0;
-    }
+                "av0"
+                "av1 av2 av3 av4 av5"
+                "av6 av7 av8 av9 av10";
+    gap: 8px; 
 }
+    .av0 {grid-area: av0;
+    height: 800px;
+    width: 500px;}
+    .av1 {
+        grid-area: av1;
+        display: flex;
+        height: 400px;
+        width: 300px;}
+    .av2 {grid-area: av2;
+        display: flex;
+        height: 400px;
+        width: 300px;}
+    .av3 {grid-area: av3;
+        display: flex;
+        height: 400px;
+        width: 300px;}
+    .av4 {grid-area: av4;
+        display: flex;
+        height: 400px;
+        width: 300px;}
+    .av5 {grid-area: av5;
+        display: flex;
+        height: 400px;
+        width: 300px;}
+    .av6 {grid-area: av6;
+        display: flex;
+        height: 400px;
+        width: 300px;}
+    .av7 {grid-area: av7;
+        display: flex;
+        height: 400px;
+        width: 300px;}
+    .av8 {grid-area: av8;
+        display: flex;
+        height: 400px;
+        width: 300px;}
+    .av9 {grid-area: av9;   
+        display: flex; 
+        height: 400px;
+        width: 300px;}
+    .av10 {grid-area: av10;
+        display: flex;
+        height: 400px;
+        width: 300px;}
 .deal{
     display: flex;
     position: relative;
