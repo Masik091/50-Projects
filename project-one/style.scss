@@ -1250,7 +1250,7 @@ position: relative;
     width: 100%;
     padding: 20px;
     background-image: url(./50-projects-images/goldpyramid.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; background-position: bottom left;
 }
 .deals2{
     display: flex;
@@ -1262,7 +1262,7 @@ position: relative;
     border-radius: 15px;
     margin: 0 100px;
     width: 100%;
-    padding: 20px;
     background-image: url(./50-projects-images/giftbox.png);
     background-repeat: no-repeat;
+    background-position: bottom right;
 }
