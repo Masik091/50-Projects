@@ -1270,3 +1270,46 @@ position: relative;
     background-repeat: no-repeat;
     background-position: bottom right;
 }
+.color-boxes{
+    display: flex;
+    margin: 100px 150px 100px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 250px;
+}
+.green-box{
+    background-color: #00FF00;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 0;
+}
+.pink-box{
+    background-color: pink;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.blue-box{
+    background-color: blue;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.yellow-box{
+    background-color: yellow;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    z-index: 3;   
+    margin-top: 50px;
+    margin-left: 20px;
+}
