@@ -1480,6 +1480,24 @@ position: relative;
     height: 200px;
     overflow: hidden; 
 }
+.visiblebtn1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e90ff;
+    border: #1e90ff solid;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    cursor: pointer;
+    line-height: 24px; 
+    max-width: 100%;
+    height: 60px;
+    margin-top: 35px;  
+    margin-bottom: 25px;
+}
 .overflowscroll{
     display: flex;
     flex-direction: column;
@@ -1499,6 +1517,7 @@ position: relative;
     width: 400px;
     height: 200px;
     overflow: auto;
+    
 }
 .try2{
     display: flex;
