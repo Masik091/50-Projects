@@ -1497,6 +1497,9 @@ position: relative;
     height: 60px;
     margin-top: 35px;  
     margin-bottom: 25px;
+    word-break: break-word;
+    text-wrap: wrap;
+    width: 93px;
 }
 .overflowscroll{
     display: flex;
@@ -1525,3 +1528,18 @@ position: relative;
     align-items: center;
 }
 
+.transformation{
+    display: flex;
+    margin-bottom: 150px;
+    justify-content: center;
+    align-content: center;
+}
+.transformimage{
+    transform: translateX(30px);
+
+    &:hover {
+        transform: translateX(100px) rotate(95deg);
+        transition: all 500ms ease-in-out;
+        border: 5px solid #FF007F;
+    }
+}
