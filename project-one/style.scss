@@ -1621,7 +1621,7 @@ position: relative;
     border-radius: 4px;
     background-color: #fff;
     transition: all;
-    animation: loader-3 800ms ease-in-out infinite;
+    animation: loader-3 2s ease-in-out infinite;
     animation-delay: 200ms;
 }
 @keyframes loader-3 {
@@ -1630,7 +1630,7 @@ position: relative;
     transform: scaleY(0.4);
    }
    20%{
-    transform: scaleY(1.0);
+    transform: scaleY(1.0)
    }
 }
 .item-3{
