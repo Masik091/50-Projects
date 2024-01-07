@@ -1609,7 +1609,30 @@ position: relative;
         height: 20px;
     }
 }
+.item-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.line{
+    width: 6px;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: all;
+    animation: loader-3 800ms ease-in-out infinite;
+    animation-delay: 200ms;
+}
+@keyframes loader-3 {
 
+   0%, 40%, 100% {
+    transform: scaleY(0.4);
+   }
+   20%{
+    transform: scaleY(1.0);
+   }
+}
 .container-hmw-2{
     margin: 0 200px 200px;
     display: flex;
