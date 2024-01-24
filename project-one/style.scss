@@ -1724,3 +1724,73 @@ to{background-color: #e4f0f1;}
     font-weight: 400;
     color: #12e6f7;
 }
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.burger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    border: 2px solid #1e90ff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #1e90ff;
+}
+.social{
+    display: flex;
+    width: 0px;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    transition: all linear 2s ;
+    overflow: hidden;
+}
+.social1{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid #f72020;
+border-radius: 50%;
+background-color: #f72020;
+width: 60px;
+height: 60px;
+}
+.social2{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid #f5fa0e;
+border-radius: 50%;
+background-color: #f5fa0e;    
+width: 60px;
+height: 60px;
+}
+.social3{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid #42fa0e;
+border-radius: 50%;
+background-color: #42fa0e;
+width: 60px;
+height: 60px;
+
+}
+.social4{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid #1d0efa;
+border-radius: 50%;
+background-color: #1d0efa; 
+width: 60px;
+height: 60px;   
+}
+.menu:hover .social{
+    width: 240px;
+
+}
