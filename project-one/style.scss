@@ -1893,3 +1893,62 @@ height: 60px;
         transform: rotate(0deg) translateX(0);
     }
 }
+.newbox{
+    display: flex;
+    justify-content: center;
+    align-items: items;
+    position: relative;
+    margin-bottom: 100px;
+    overflow: hidden;
+.greenbox{
+position: absolute;
+top: -420px;
+width: 100px;
+height: 420px;
+background: #58f215;
+transition: transform 1.8s;
+transform: translateY(840px);
+}
+.redbox{
+position: absolute;
+left: 400px;
+width: 420px;
+height: 100px;
+left: 400px;
+background: #f20821;
+transition: transform 1.8s;
+transform: translateX(-840px);
+}
+.javabox{
+position: absolute;
+align-items: center;
+width: 280px;
+height: 280px;
+border: 2px solid #999;
+border-radius: 5px;
+top: -930px;
+left: 110px;
+text-align: center;
+line-height: 2;
+}
+.bluebox{
+position: absolute;
+top: -220px;
+left: 400px;
+width: 100px;
+height: 420px;
+background: #30e2e4;
+transition: transform 1.8s;
+transform: translateY(-840px);
+}
+.yellowbox{
+position: absolute;
+top: -120px;
+left: -320px;
+width: 420px;
+height: 100px;
+background: #f4fd02;
+transition: transform 1.8s;
+transform: translateX(840px);
+}
+}
