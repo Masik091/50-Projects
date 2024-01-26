@@ -1728,6 +1728,7 @@ to{background-color: #e4f0f1;}
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 150px;
 }
 .burger{
     display: flex;
@@ -1745,8 +1746,8 @@ to{background-color: #e4f0f1;}
     width: 0px;
     justify-content: center;
     align-items: center;
-    font-size: 45px;
-    transition: all linear 2s ;
+    font-size: 43px;
+    transition: all ease-out 3s ;
     overflow: hidden;
 }
 .social1{
