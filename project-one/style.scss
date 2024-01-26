@@ -1900,14 +1900,16 @@ height: 60px;
     position: relative;
     margin-bottom: 100px;
     overflow: hidden;
+
 .greenbox{
 position: relative;
 top: -420px;
 width: 100px;
 height: 420px;
 background: #58f215;
-transition: transform 1.8s;
-animation: greenbox 1.5s linear infinite;
+transition: transform 2s;
+animation: greenbox 2s linear infinite;
+z-index: 1;
 }
 .redbox{
 position: relative;
@@ -1915,17 +1917,16 @@ width: 420px;
 height: 100px;
 left: -100px;
 background: #f20821;
-transition: transform 1.8s;
-animation: redbox 1.5s linear infinite;
+transition: transform 2s;
+animation: redbox 2s linear infinite;
+z-index: 0;
 }
 .javabox{
 position: relative;
 align-items: center;
 width: 280px;
 height: 280px;
-border: 2px solid #999;
-border-radius: 5px;
-top: -930px;
+top: 80px;
 left: 110px;
 text-align: center;
 line-height: 2;
@@ -1937,8 +1938,9 @@ left: 400px;
 width: 100px;
 height: 420px;
 background: #30e2e4;
-transition: transform 1.8s;
-animation: bluebox 1.5s linear infinite;
+transition: transform 2s;
+animation: bluebox 2s linear infinite;
+z-index: 3;
 }
 .yellowbox{
 position: relative;
@@ -1947,8 +1949,9 @@ left: -16px;
 width: 420px;
 height: 100px;
 background: #f4fd02;
-transition: transform 1.8s;
-animation: yellowbox 1.5s linear infinite;
+transition: transform 2s;
+animation: yellowbox 2s linear infinite;
+z-index: 3;
 }
 .javatext{
     display: flex;
@@ -1956,7 +1959,6 @@ animation: yellowbox 1.5s linear infinite;
     align-self: center;
     font-size: 45px;
     font-weight: 600;
-    margin-bottom: 30px;
 }
 .click-btn {
     padding: 15px;
