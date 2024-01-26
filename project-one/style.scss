@@ -1848,3 +1848,48 @@ height: 60px;
         transform: translate(23px);
     }
 }
+.tiktok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+    div {
+        width: 40px;
+        height: 40px;
+        border: solid linear-gradient(to right, #325774 0%, #47536a 100%);
+        background: linear-gradient(to right, #325774 0%, #47536a 100%);
+        border-radius: 50px;
+
+        &:nth-child(1) {
+            animation: left 2s ease-in-out infinite;
+        }
+        &:nth-child(6)
+        {
+            animation: right 2s ease-in-out infinite;
+
+        }
+    }
+}
+@keyframes left{
+    0%, 50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(50deg) translateX(-2.5em);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+@keyframes right{
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-50deg) translateX(2.5em);
+    }
+    50%, 100% {
+        transform: rotate(0deg) translateX(0);
+    }
+}
