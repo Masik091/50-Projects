@@ -1896,69 +1896,76 @@ height: 60px;
 .newbox{
     display: flex;
     justify-content: center;
-    align-items: items;
+    align-items: center;
     position: relative;
     margin-bottom: 100px;
     overflow: hidden;
+    width: 700px;
+    margin: 0 auto;
 
 .greenbox{
-position: relative;
-top: -420px;
-width: 100px;
-height: 420px;
+position: absolute;
+top: calc(-100% + 80px);
+left: 0px;
+width: 80px;
+height: 100%;
 background: #58f215;
 transition: transform 2s;
-animation: greenbox 2s linear infinite;
+animation: greenbox 2s linear infinite alternate;
 z-index: 1;
 }
 .redbox{
-position: relative;
-width: 420px;
-height: 100px;
-left: -100px;
+position: absolute;
+width: 100%;
+height: 80px;
+right: calc(-100% + 80px);
+top: 0;
 background: #f20821;
 transition: transform 2s;
-animation: redbox 2s linear infinite;
+animation: redbox 2s linear infinite alternate;
 z-index: 0;
 }
 .javabox{
 position: relative;
+display: flex;
+flex-direction: column;
 align-items: center;
+justify-content: center;
 width: 280px;
 height: 280px;
-top: 80px;
-left: 110px;
+
 text-align: center;
 line-height: 2;
 }
 .bluebox{
-position: relative;
-top: -220px;
-left: 400px;
-width: 100px;
-height: 420px;
+position: absolute;
+top: calc(100% - 80px);
+right: 0;
+width: 80px;
+height: 100%;
 background: #30e2e4;
 transition: transform 2s;
-animation: bluebox 2s linear infinite;
+animation: bluebox 2s linear infinite alternate;
 z-index: 3;
 }
 .yellowbox{
-position: relative;
-top: 320px;
-left: -16px;
-width: 420px;
-height: 100px;
+position: absolute;
+bottom: 0;
+left: calc(-100% + 80px);
+width: 100%;
+height: 80px;
 background: #f4fd02;
 transition: transform 2s;
-animation: yellowbox 2s linear infinite;
+animation: yellowbox 2s linear infinite alternate;
 z-index: 3;
 }
 .javatext{
     display: flex;
     justify-content: center;
     align-self: center;
-    font-size: 45px;
+    font-size: 20px;
     font-weight: 600;
+    line-height: 20px;
 }
 .click-btn {
     padding: 15px;
@@ -1979,20 +1986,31 @@ z-index: 3;
     transform: translateY(840px);        
     }
 }
-@keyframes redbox {
-    0%, 50% {
+@keyframes greenboxAnother{
+    0% {
         transform: translateY(0px);
     }
-    100%{
-    transform: translateX(840px);        
+    50%{
+        transform: translateY(560px);        
+    }
+    100% {
+        transform: translateY(-80px);
     }
 }
-@keyframes bluebox {
+@keyframes redbox {
     0%, 50% {
         transform: translateX(0px);
     }
     100%{
-    transform: translateY(840px);        
+    transform: translateX(-1280px);        
+    }
+}
+@keyframes bluebox {
+    0%, 50% {
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-420px);        
     }
 }
 @keyframes yellowbox {
@@ -2000,6 +2018,6 @@ z-index: 3;
         transform: translateY(0px);
     }
     100%{
-    transform: translateX(-840px);        
+    transform: translateX(1280px);        
     }
 }
