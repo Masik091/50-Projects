@@ -2031,13 +2031,9 @@ z-index: 3;
     padding: 200px;
     background-image: linear-gradient(to bottom, rgba(255, 168, 76, 0.6) 0%, rgba(255, 123, 13, 0.6) 100%), url("https://images.unsplash.com/photo-1446824505046-e43605ffb17f");
 .birds{
-    position: absolute;
-    top: 100px;
-    top: 50px;
-    left: 10px;
     z-index: 2;
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg);
-    animation: fly steps(8)  infinite;
+    animation: fly steps(8) infinite;
     will-change: background-position;
     width: 88px;
     height: 125px;
@@ -2047,7 +2043,7 @@ z-index: 3;
 .bird-one{
     animation-duration: 2s;
     animation-delay: 0.5s;
-    animation: one linear infinite ease-out;
+    
 }
 .bird-two{
     animation-duration: 1.9s;
@@ -2064,12 +2060,32 @@ z-index: 3;
     animation-delay: -0.5s;
 }
 }
+.flyingbird {
+    position: absolute;
+    top: 100px;
+    top: 50px;
+    left: 10px;
+ 
+}
+.flyingbird-one {
+    animation: one linear infinite 19.1s;
+}
+.flyingbird-two {
+    animation: two linear infinite 15s;
+}
+.flyingbird-three{
+    animation: three ease-out 17.3s infinite;
+}
+.flyingbird-four{
+    animation: four ease-out 18.5s infinite;
+}
 @keyframes fly{
 100%{
     background-position: -700px 0;
 }
 }
 @keyframes one{
+
     0% {
 		transform: scale(0.3) translateX(-10vw);
 	}
@@ -2103,7 +2119,18 @@ z-index: 3;
 	}
 	
 }
-
+@keyframes two{
+    0% {transform: translateX(-10vw)}
+    100% {transform: translateX(110vw);}
+}
+@keyframes three{
+    0%{transform: translateX(-10vw) scale(0.5);}
+    100%{transform: translateX(110vw) scale(0.7);}
+}
+@keyframes four{
+    0%{transform: translateX(-10vw) translateY(1.5vh) scale(0.5);}
+    100%{transform: translateX(110vw) translateY(-1.2vh) scale(1.2);}  
+}
 .svgname {
     display: flex;
     justify-content: center;
