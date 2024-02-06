@@ -2037,7 +2037,7 @@ z-index: 3;
     left: 10px;
     z-index: 2;
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg);
-    animation: fly steps(8) infinite;
+    animation: fly steps(8)  infinite;
     will-change: background-position;
     width: 88px;
     height: 125px;
@@ -2047,10 +2047,13 @@ z-index: 3;
 .bird-one{
     animation-duration: 2s;
     animation-delay: 0.5s;
+    animation: one linear infinite ease-out;
 }
 .bird-two{
     animation-duration: 1.9s;
     animation-delay: -0.75s;
+    transform: translateX();
+
 }
 .bird-three{
     animation-duration: 2.25s;
@@ -2065,4 +2068,48 @@ z-index: 3;
 100%{
     background-position: -700px 0;
 }
+}
+@keyframes one{
+    0% {
+		transform: scale(0.3) translateX(-10vw);
+	}
+	
+	10% {
+		transform: translateY(2vh) translateX(10vw) scale(0.4);
+	}
+	
+	20% {
+		transform: translateY(0vh) translateX(30vw) scale(0.5);
+	}
+	
+	30% {
+		transform: translateY(4vh) translateX(50vw) scale(0.6);
+	}
+	
+	40% {
+		transform: translateY(2vh) translateX(70vw) scale(0.6);
+	}
+	
+	50% {
+		transform: translateY(0vh) translateX(90vw) scale(0.6);
+	}
+	
+	60% {
+		transform: translateY(0vh) translateX(110vw) scale(0.6);
+	}
+	
+	100% {
+		transform: translateY(0vh) translateX(110vw) scale(0.6);
+	}
+	
+}
+
+.svgname {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    z-index: 3;
+	font-size: 4rem;
+	letter-spacing: -3px;
+	text-shadow: 0px 1px 1px 
 }
