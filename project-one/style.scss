@@ -2189,4 +2189,40 @@ z-index: 3;
         font-size: 30px;
         line-height: 200px;
     }
+    .slidedown{
+        animation: slidedown 3s linear 1.5;
+    }
+    .slideup{
+        animation: slideup 3s linear 1.5;
+    }
+    .slideleft{
+        animation: slideleft 3s linear 1.5;
+    }
 }
+@keyframes slidedown {
+0%{
+    transform: translateY(-100%);
+}
+100%{
+    transform: translateY(0%);
+}
+}
+
+@keyframes slideup {    
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes slideleft{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
