@@ -2190,22 +2190,28 @@ z-index: 3;
         line-height: 200px;
     }
     .slidedown{
-        animation: slidedown 2s linear 1.5;
+        animation: slidedown 2s 1 linear;
     }
     .slideup{
-        animation: slideup 2s 1.5s linear 1;
+        animation: slideup 2s 1.5s 1 linear;
     }
     .slideleft{
-        animation: slideleft 2s 3s linear 1;
+        animation: slideleft 2s 3s 1 linear;
     }
     .expand{
-        animation: expand 2s 4.5s ease-out 1;
+        animation: expand 2s 4.5s 1 ease-out;
     }
     .fadein{
-        animation: fadein 2s 5s ease-in-out 1;
+        animation: fadein 2s 5s 1 ease-in-out;
     }
     .entrance{
-        animation: entrance 2s 6.5s ease-out 1;
+        animation: entrance 2s 6.5s 1 ease-out;
+    }
+    .pulse:hover{
+        animation: pulse 2s 5 linear;
+    }
+    .floating:hover{
+        animation: floating 2s 5 cubic-bezier(.56,2.05,.93,-0.35);
     }
 }
 @keyframes slidedown {
@@ -2258,4 +2264,38 @@ z-index: 3;
         transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
     }
 
+}
+@keyframes pulse{
+    0%{
+        transform: scale(0.5);
+    }
+    20%{
+        transform: scale(0.7);
+    }
+    30%{
+        transform: scale(0.9);
+    }
+    50%{
+        transform: scale(1);
+    }
+    60%{
+        transform: scale(0.9);
+    }
+    70%{
+        transform: scale(0.7);
+    }
+    100%{
+        transform: scale(0.5);
+    }
+}
+@keyframes floating{
+    0% {
+        transform: translateY(0%);
+      }
+      50% {
+        transform: translateY(8.5%);
+      }
+      100% {
+        transform: translateY(0%);
+      }
 }
