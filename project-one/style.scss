@@ -2190,13 +2190,22 @@ z-index: 3;
         line-height: 200px;
     }
     .slidedown{
-        animation: slidedown 3s linear 1.5;
+        animation: slidedown 2s linear 1.5;
     }
     .slideup{
-        animation: slideup 3s linear 1.5;
+        animation: slideup 2s 1.5s linear 1;
     }
     .slideleft{
-        animation: slideleft 3s linear 1.5;
+        animation: slideleft 2s 3s linear 1;
+    }
+    .expand{
+        animation: expand 2s 4.5s ease-out 1;
+    }
+    .fadein{
+        animation: fadein 2s 5s ease-in-out 1;
+    }
+    .entrance{
+        animation: entrance 2s 6.5s ease-out 1;
     }
 }
 @keyframes slidedown {
@@ -2225,4 +2234,28 @@ z-index: 3;
         transform: translateX(0%);
     }
 }
+@keyframes expand{
+    0%{
+        transform: translateY(100%) scaleX(0.5);
+    }
+    100%{
+        transform: translateY(0%) scaleX(1);
+    }
+}
+@keyframes fadein{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes entrance{
+    0%{
+        transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
+    }
+    100%{
+        transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+    }
 
+}
