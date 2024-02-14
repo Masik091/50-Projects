@@ -2225,10 +2225,50 @@ z-index: 3;
         animation: grow 2s 5 ease-in-out;
     }
     .circle:hover{
+        transition: all 6ms ease-in;
+        border-radius: 50%;
         animation: circle 2s 5 ease;
     }
-    .curls:hover{
-        
+    .curls{
+        position: relative;
+    }
+    .curls::before{
+        content: '';
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(135deg, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
+        border-bottom: 1px solid gray;
+        border-right: 1px solid gray;
+    }
+    .curls:hover::before{
+        content: '';
+        transition: all 500ms ease-out;
+        width: 25px;
+        height: 25px;
+    }
+    .bubble{
+        position: relative;
+        z-index: 1;
+    }
+    .bubble::before{
+        content: "";
+        width: 25px;
+        height: 25px;
+        position: absolute; 
+        margin-bottom: 10px;
+        bottom: 0;
+        left: 50%;
+        transform: rotate(45deg); 
+        background: tomato; 
+        z-index: -1;     
+    }
+    .bubble:hover::before{
+        content: "";
+        margin-bottom: -10px;
+        transition: all 600ms ease-out;
     }
 }
 @keyframes slidedown {
