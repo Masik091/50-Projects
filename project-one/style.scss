@@ -2395,10 +2395,10 @@ z-index: 3;
     }
 @keyframes light{
     0%{
-        background-position: 100px;
+        transform: translateY(-600deg)
     }
     100%{
-        background-position: 0px; 
+        transform: translateY(0)
     }
 }
 }
