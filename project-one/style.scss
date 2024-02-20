@@ -2275,7 +2275,8 @@ z-index: 3;
         background-position:0px;
     }
     .light:hover{
-        animation: light;
+        animation-name: light;
+        animation-iteration-count: 1;
         animation-duration: 3s;
         background: linear-gradient(135deg,  rgba(255,99,71,1) 0%,rgba(255,99,71,1) 5%,rgba(255,99,71,1) 5%,rgba(255,99,71,1) 42%,rgba(255,255,255,1) 49%,rgba(255,255,255,1) 53%,rgba(255,99,71,1) 59%,rgba(255,99,71,1) 100%);
     }
@@ -2396,7 +2397,7 @@ z-index: 3;
 }
 @keyframes light{
     0%{
-        background-position: -600px;
+        background-position: -700px;
     }
     100%{
         background-position: 0px;
