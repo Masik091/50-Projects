@@ -2271,13 +2271,13 @@ z-index: 3;
         transition: all 600ms ease-out;
     }
     .light{
-        background: linear-gradient(135deg,  rgba(255,99,71,1) 0%,rgba(255,99,71,1) 5%,rgba(255,99,71,1) 5%,rgba(255,99,71,1) 42%,rgba(255,255,255,1) 49%,rgba(255,255,255,1) 53%,rgba(255,99,71,1) 59%,rgba(255,99,71,1) 100%);
         background-repeat: no-repeat;
         background-position:0px;
     }
     .light:hover{
-        animation: light 1.3s;
-        transition: all 500ms ease-out;
+        animation: light;
+        animation-duration: 3s;
+        background: linear-gradient(135deg,  rgba(255,99,71,1) 0%,rgba(255,99,71,1) 5%,rgba(255,99,71,1) 5%,rgba(255,99,71,1) 42%,rgba(255,255,255,1) 49%,rgba(255,255,255,1) 53%,rgba(255,99,71,1) 59%,rgba(255,99,71,1) 100%);
     }
 }
 
@@ -2396,9 +2396,9 @@ z-index: 3;
 }
 @keyframes light{
     0%{
-        transform: translateY(-600);
+        background-position: -600px;
     }
     100%{
-        transform: translateY(0);
+        background-position: 0px;
     }
 }
