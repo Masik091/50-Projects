@@ -2273,12 +2273,13 @@ z-index: 3;
     .light{
         background-repeat: no-repeat;
         background-position:0px;
+        background: linear-gradient(135deg,  rgba(255,99,71,1) 0%,rgba(255,99,71,1) 5%,rgba(255,99,71,1) 5%,rgba(255,99,71,1) 42%,rgba(255,255,255,1) 49%,rgba(255,255,255,1) 53%,rgba(255,99,71,1) 59%,rgba(255,99,71,1) 100%);
+        background-size: 400%;
     }
     .light:hover{
         animation-name: light;
         animation-iteration-count: 1;
         animation-duration: 3s;
-        background: linear-gradient(135deg,  rgba(255,99,71,1) 0%,rgba(255,99,71,1) 5%,rgba(255,99,71,1) 5%,rgba(255,99,71,1) 42%,rgba(255,255,255,1) 49%,rgba(255,255,255,1) 53%,rgba(255,99,71,1) 59%,rgba(255,99,71,1) 100%);
     }
 }
 
