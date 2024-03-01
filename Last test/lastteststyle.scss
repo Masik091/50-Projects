@@ -14,7 +14,16 @@ p{
 $sct-one-par: #000;
 $btn-get-started: #F63;
 
+.commoncontainer{
+    display: flex;
+    max-width: 1180px;
+    margin: 0 auto;
+}
 
+.sct-two .commoncontainer {
+    display: flex;
+    flex-direction: column;
+}
 .header{
     display: flex;
     flex-direction: row;
@@ -177,6 +186,7 @@ $btn-get-started: #F63;
         margin-bottom: 64px;
     }
     .firstlist{
+        list-style: none;
         display: flex;
         flex-direction: row;
         justify-content: center;
