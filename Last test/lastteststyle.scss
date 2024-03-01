@@ -20,14 +20,15 @@ $btn-get-started: #F63;
     flex-direction: row;
     height: 72px;
     padding: 0px 130px;
-    justify-content: center;
     align-items: center;
     background-color: #1A1A1A;
+    padding-left: 130px;
 
     .divlogos{
         display: flex;
         align-items: center;
         gap: 19.477px;
+        margin-right: 68.18px;
     }
     .headertitle{
         color: #FFF;
@@ -38,7 +39,8 @@ $btn-get-started: #F63;
         font-weight: 700;
         line-height: 20px; 
         letter-spacing: 0.24px;
-        margin: 68.18px 26px 75px;
+        margin-right: 75px;
+        width: 576px;
     }
 
     .btndiv{
@@ -50,7 +52,7 @@ $btn-get-started: #F63;
     .one-btn{
         color: #f2673a;
         border: 1px solid #f2673a;
-        border-radius: 8px;
+        border-radius: 100px;
         text-align: center;
         font-family: Mont;
         font-size: 18px;
@@ -59,6 +61,8 @@ $btn-get-started: #F63;
         line-height: 18px;
         letter-spacing: 0.18px;
         text-transform: uppercase;
+        background: inherit;
+        height: 40px;
     }
     
     .btnprg{
@@ -75,8 +79,8 @@ $btn-get-started: #F63;
     .sct-one{
         display: flex;
         flex-direction: row;
-        row-gap: 32px;
-
+        column-gap: 32px;
+        padding-left: 130px;
         .div-sctone-1{
             display: flex;
             flex-direction: column;
@@ -110,6 +114,7 @@ $btn-get-started: #F63;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
+            margin-bottom: 48px;
         }
         .btn-pars{
             display: flex;
@@ -123,10 +128,19 @@ $btn-get-started: #F63;
             justify-content: center;
             align-items: center;
             border-radius: 100px;
-            background: var(--btn-get-started);
+            border-color: #f2673a;
             padding-top: 20px;
             padding-bottom: 18px;
             margin-bottom: 10px;
+            color: #FFF;
+            text-align: center;
+            font-family: Mont;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 24px; /* 109.091% */
+            text-transform: uppercase;
+            background: #f2673a;
         }
         .par-sub1{
             color: #000;
@@ -137,6 +151,7 @@ $btn-get-started: #F63;
             font-weight: 800;
             line-height: 14px;
             margin-bottom: 16px; 
+            width: 372px;
         }
         .par-sub2{
             color: #F63;
@@ -146,19 +161,24 @@ $btn-get-started: #F63;
             font-style: normal;
             font-weight: 700;
             line-height: 22px;
+            width: 372px;
         }
     }
     .div-sctone-2{
         display: flex;
         position: relative;
-
-        .screen1{
-            z-index: 1;
-        }
-        .half-screen{
-            z-index: 2;
-        }
-        .screen2{
-            z-index: 3;
-        }
+        padding: 34.7px 52.44px;
+    }
+    .threesteps{
+        display: flex;
+        justify-content: center;
+        padding-top: 80px;
+        width: 1180px;
+        margin-bottom: 64px;
+    }
+    .firstlist{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
