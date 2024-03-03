@@ -17,7 +17,7 @@ $btn-get-started: #F63;
 .commoncontainer{
     display: flex;
     max-width: 1180px;
-    margin: 0 auto;
+    margin: -4px 180px;
 }
 
 .sct-two .commoncontainer {
@@ -98,11 +98,12 @@ $btn-get-started: #F63;
         .cfd-fat{
             display: flex;
             flex-direction: column;
+            margin-right: 160px;
         }
         .cfd{
             color: #F63;
             font-family: Mont;
-            font-size: 56px;
+            font-size: 60px;
             font-style: normal;
             font-weight: 800;
             line-height: 64px;
@@ -110,20 +111,24 @@ $btn-get-started: #F63;
         .fat{
             color: #000;
             font-family: Mont;
-            font-size: 56px;
+            font-size: 60px;
             font-style: normal;
             font-weight: 800;
             line-height: 64px;
-            margin-bottom: 16px;
+            margin-bottom: 25px;
         }
         .sct-one-par{
             color: var(--sct-one-par);
+            display: flex;
+            flex-wrap: nowrap;
             font-family: Mont;
-            font-size: 22px;
+            font-size: 25px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
-            margin-bottom: 48px;
+            margin-bottom: 45px;
+            width: 600px;
+            margin-right: -150px;
         }
         .btn-pars{
             display: flex;
@@ -181,9 +186,11 @@ $btn-get-started: #F63;
     .threesteps{
         display: flex;
         justify-content: center;
-        padding-top: 80px;
+        padding-top: 60px;
         width: 1180px;
         margin-bottom: 64px;
+        font-size: 40px;
+        padding-left: 85px;
     }
     .firstlist{
         list-style: none;
@@ -191,4 +198,25 @@ $btn-get-started: #F63;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        padding-left: 270px;
+        padding-top: 20px;
+    }
+    .firstlistsmalltitle{
+        color: #000;
+        text-align: center;
+        font-family: Mont;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 40px;
+    }
+    .firstlistpar{
+        color: #666;
+        text-align: center;
+        font-family: Mont;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px;
     }
