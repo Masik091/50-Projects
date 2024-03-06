@@ -22,7 +22,9 @@ $btn-get-started: #F63;
     max-width: 1180px;
     margin: 0 auto;
 }
-
+.sct-two{
+    margin-bottom: 160px;
+}
 .sct-two .commoncontainer {
     display: flex;
     flex-direction: column;
@@ -99,6 +101,7 @@ $btn-get-started: #F63;
         flex-direction: row;
         column-gap: 32px;
         padding-left: 130px;
+        background: url(./Images-last-test/background-lastetst.png);
         .div-sctone-1{
             display: flex;
             flex-direction: column;
@@ -252,4 +255,58 @@ $btn-get-started: #F63;
         flex-direction: row;
         justify-content: center;
         align-self: baseline;
+    }
+    .sct-three{
+        background: url(./Images-last-test/background-2-lasttest.png);
+    }
+    .sct-three .commoncontainer {
+         display: flex;
+         flex-direction: column;}
+    .sectionthreetitle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+        text-align: center;
+        font-family: Mont;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0.4px;
+        margin-bottom: 15px;
+
+    }
+    .parsctthree{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+        text-align: center;
+        font-family: Mont;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+    .bigdiv{
+        display: flex;
+        flex-direction: column;
+        column-gap: 32px;
+    }
+    .divy{
+
+    }
+    .div-1{
+
+    }
+    .div-2{
+
+    }
+    .div-3{
+
+    }
+    .seconddiv{
+
     }
