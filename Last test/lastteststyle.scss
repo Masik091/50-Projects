@@ -1,7 +1,9 @@
 * {
     margin: 0;
 }
+
 ul,
+li,
 div,
 h1,
 h2,
@@ -10,6 +12,7 @@ h4,
 p{
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 $sct-one-par: #000;
 $btn-get-started: #F63;
@@ -17,13 +20,19 @@ $btn-get-started: #F63;
 .commoncontainer{
     display: flex;
     max-width: 1180px;
-    margin: -4px 180px;
+    margin: 0 auto;
 }
 
 .sct-two .commoncontainer {
     display: flex;
     flex-direction: column;
 }
+.header .commoncontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .header{
     display: flex;
     flex-direction: row;
@@ -186,11 +195,12 @@ $btn-get-started: #F63;
     .threesteps{
         display: flex;
         justify-content: center;
-        padding-top: 60px;
+        padding-top: 40px;
         width: 1180px;
         margin-bottom: 64px;
-        font-size: 40px;
-        padding-left: 85px;
+        font-size: 45px;
+        padding-bottom: 20px;
+
     }
     .firstlist{
         list-style: none;
@@ -198,25 +208,48 @@ $btn-get-started: #F63;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding-left: 270px;
-        padding-top: 20px;
+    }
+    .lineinlist{
+        display: flex;
+        width: 310px;
     }
     .firstlistsmalltitle{
         color: #000;
         text-align: center;
         font-family: Mont;
-        font-size: 24px;
+        font-size: 25px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        margin-top: 40px;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
     .firstlistpar{
         color: #666;
         text-align: center;
         font-family: Mont;
-        font-size: 16px;
+        font-size: 18px;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 400;
         line-height: 22px;
+    }
+    .secondlist{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 200px;
+    }
+    .thirdlist{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+    }
+    .sublistthree{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-self: baseline;
     }
