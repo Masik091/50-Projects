@@ -16,6 +16,8 @@ p{
 }
 $sct-one-par: #000;
 $btn-get-started: #F63;
+$btnjoin: #F63;
+
 
 .commoncontainer{
     display: flex;
@@ -314,9 +316,7 @@ $btn-get-started: #F63;
         flex-direction: row-reverse;
 
     }
-    .div-3{
 
-    }
     .seconddiv{
         display: flex;
         flex-direction: column;
@@ -338,4 +338,37 @@ $btn-get-started: #F63;
     }
     .img-three{
         display: flex;
+    }
+    .btnjoin {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 0.18px;
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        width: 372px;
+        height: 64px;
+        margin: 2px auto 10px;
+        border: #F63 1px solid;
+        border-radius: 100px;
+        background: #F63;
+    }
+    .btnprg-2{
+        color: #000;
+        text-align: center;
+        font-family: Mont;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 800;
+        line-height: 14px;
+        padding-bottom: 80px;
+    }
+    .sct-four{
+        display: flex;
+    .lastbig{
+        display: flex;
+        
+    }
     }
