@@ -2,8 +2,7 @@
     margin: 0;
 }
 
-ul,
-li,
+
 div,
 h1,
 h2,
@@ -21,7 +20,7 @@ $btnjoin: #F63;
 
 @font-face {
     font-family: Mont, sans-serif;
-    src: url('./Mont Font Family/Fontfabric - Mont ExtraLight DEMO.otf');
+    src: url('./Mont\ Font\ Family/Mont-Regular.ttf');
 }
 
 .commoncontainer{
@@ -249,6 +248,7 @@ $btnjoin: #F63;
         justify-content: center;
         align-items: center;
         gap: 200px;
+        list-style: none;
     }
     .thirdlist{
         display: flex;
@@ -375,6 +375,40 @@ $btnjoin: #F63;
 
         .lastbig{
             display: flex;
+            flex-direction: column;
+            margin-top: 80px;
+            font-size: 25px;
+            font-family: Mont;
+        }
+        .faq{
+            display: flex;
+            padding-bottom: 30px;
+        }
+        .commoncfd{
+            display: flex;
+            flex-direction: column;
+            row-gap: 45px;
+            margin-bottom: 20px;
+        }
+        .footertext{
+            font-family: Mont;
+            font-size: 28px;
+        }
+        .footertext-2{
+            font-size: 23px;
+            margin-bottom: 17px;
+        }
+        .smalltext{
+            font-family: Mont;
+            font-size: 20px;
+        }
+        .lastlist{
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+                }
+        .smalltext{
+            display: list-item;
         }
     }
     .sct-four .commoncontainer{
@@ -382,4 +416,5 @@ $btnjoin: #F63;
         width: 100%;
         align-items: start;
         justify-content: start;
+        padding-bottom: 100px;
     }
