@@ -390,6 +390,9 @@ $btnjoin: #F63;
             row-gap: 45px;
             margin-bottom: 20px;
         }
+        .border-dashed{
+            border-bottom: 1px dashed #666;
+        }
         .footertext{
             font-family: Mont;
             font-size: 28px;
@@ -409,6 +412,9 @@ $btnjoin: #F63;
                 }
         .smalltext{
             display: list-item;
+        }
+        .bold{
+            font-weight: bold;
         }
     }
     .sct-four .commoncontainer{
