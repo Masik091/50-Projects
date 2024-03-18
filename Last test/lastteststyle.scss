@@ -89,6 +89,11 @@ $btnjoin: #F63;
         text-transform: uppercase;
         background: inherit;
         height: 40px;
+        cursor: pointer;
+    }
+    .one-btn:hover{
+        color: gold;
+        border: 1px solid gold;
     }
     
     .btnprg{
@@ -173,6 +178,12 @@ $btnjoin: #F63;
             line-height: 24px; /* 109.091% */
             text-transform: uppercase;
             background: #f2673a;
+            cursor: pointer;
+        }
+        .get-started:hover{
+            background-color: #AF08E0;
+            border-color: #AF08E0;
+
         }
         .par-sub1{
             color: #000;
