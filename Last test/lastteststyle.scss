@@ -506,6 +506,7 @@ $btnjoin: #F63;
                     }
                     .secondlist{
                         gap: 90px;
+                        flex-direction: column;
                     }
                     .firstlistsmalltitle{
                         font-size: 20px;
@@ -522,6 +523,14 @@ $btnjoin: #F63;
                     }
                     .sct-two{
                         margin-bottom: 60px;
+                    }
+                    .secondcont{
+                        display: flex;
+                        flex-direction: row;
+                    }
+                    .columncontainer{
+                        display: flex;
+                        flex-direction: column;
                     }
                     .sectionthreetitle{
                         font-weight: 500;
