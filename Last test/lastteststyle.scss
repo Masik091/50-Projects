@@ -441,7 +441,11 @@ $btnjoin: #F63;
         
                     .headertitle,
                     .pic2,
-                    .pic3 {
+                    .pic3,
+                    .one-btn,
+                    .btnprg
+                     {
+                        display: none;
                         visibility: hidden;
                     }
         
@@ -450,4 +454,99 @@ $btnjoin: #F63;
                         justify-content: center;
                         align-items: center;
                     }
-                }
+                    .commoncontainer{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        max-width: 721px;
+                    }
+                    .div-sctone-1{
+                        display: flex;
+                        margin: 0px auto;
+                    }
+                    .cfd{
+                        color: #f63;
+                        font-family: Mont;
+                        font-size: 50px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 55px;
+                    }
+                    .fat{
+                        font-family: Mont;
+                        font-size: 50px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 60px;
+                        margin-bottom: 25px;
+                    }
+                    .div-sctone-2{
+                        padding: 0px;
+                    }
+                    .threesteps{
+                        display: flex;
+                        justify-content: center;
+                        padding-top: 40px;
+                        margin-bottom: 40px;
+                        font-size: 40px;
+                        padding-bottom: 20px;
+                    }
+                    .lineinlist{
+                        width: 200px;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .firstlist{
+                        list-style: none;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content:left;
+                        align-items: self-start;
+                    }
+                    .secondlist{
+                        gap: 90px;
+                    }
+                    .firstlistsmalltitle{
+                        font-size: 20px;
+                    }
+                    .thirdlist{
+                        gap: 20px;
+                    }
+                    .firstlistpar{
+                        font-size: 14px;
+                        width: 100%;
+                    }
+                    .thirdlist{
+                        padding: 0px;
+                    }
+                    .sct-two{
+                        margin-bottom: 60px;
+                    }
+                    .sectionthreetitle{
+                        font-weight: 500;
+                        letter-spacing: 6px;
+                    }
+                    .parsctthree{
+                        padding-top: 20px;
+                        letter-spacing: 6px;
+                    }
+                    .divy{
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 0px;
+                    }
+                    .pct{
+                        max-width: 721px;
+                        width: 100%;
+                    }
+                    .seconddiv{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0 50px 30px;
+                    }
+                    }
+                
