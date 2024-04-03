@@ -437,6 +437,21 @@ $btnjoin: #F63;
     }
 
 
+    .des {
+        display:flex;
+    }
+    .mob {
+        display: none;
+    }
+
+    @media screen and (max-width: 768px) {
+        .mob {
+            display: flex;
+        }
+        .des {
+            display: none;
+        }
+    }
                 @media screen and (max-width: 721px) {
         
                     .headertitle,
