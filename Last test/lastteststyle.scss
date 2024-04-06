@@ -439,6 +439,7 @@ $btnjoin: #F63;
 
     .des {
         display:flex;
+        flex-direction: column;
     }
     .mob {
         display: none;
