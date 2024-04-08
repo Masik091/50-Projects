@@ -481,19 +481,29 @@ $btnjoin: #F63;
                         align-items: center;
                         max-width: 721px;
                     }
+                    .sct-one .sct-one-par{
+                        display: flex;
+                        width: 430px;
+                        text-align: center;
+                        margin-right: 0px;
+                    }
                     .div-sctone-1{
                         display: flex;
                         margin: 0px auto;
                     }
-                    .cfd{
+                    .sct-one .cfd{
                         color: #f63;
                         font-family: Mont;
                         font-size: 50px;
                         font-style: normal;
                         font-weight: 700;
                         line-height: 55px;
+                        display: flex;
+                        justify-content: center;
                     }
-                    .fat{
+                    .sct-one .fat{
+                        display: flex;
+                        justify-content: center;
                         font-family: Mont;
                         font-size: 50px;
                         font-style: normal;
@@ -634,10 +644,12 @@ $btnjoin: #F63;
                         align-items: center;
                         font-size: 20px;
                         margin: 20px 90px;
+                        text-align: justify;
                     }
                     .sct-four .smalltext{
                         font-size: 15px;
                         margin: 10px 100px;
+                        text-align: justify;
                         
                     }
                     .sct-four .faq{
