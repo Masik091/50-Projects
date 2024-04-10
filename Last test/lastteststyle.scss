@@ -8,7 +8,8 @@ h1,
 h2,
 h3,
 h4,
-p{
+p,
+ul{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -29,7 +30,7 @@ $btnjoin: #F63;
     margin: 0 auto;
 }
 .sct-two{
-    margin-bottom: 160px;
+    margin-bottom: 130px;
 }
 .sct-two .commoncontainer {
     display: flex;
@@ -111,24 +112,23 @@ $btnjoin: #F63;
         display: flex;
         flex-direction: row;
         column-gap: 32px;
-        padding-left: 130px;
         background: url(./Images-last-test/background-lastetst.png);
         .div-sctone-1{
             display: flex;
             flex-direction: column;
-            margin: 80px 0px;
+            margin: 70px 0px;
         }
         .cfd-fat{
             display: flex;
             flex-direction: column;
-            margin-right: 160px;
+            margin-right: 120px;
         }
         .cfd{
             color: #F63;
             font-family: 'Mont', sans-serif;
             font-size: 60px;
             font-style: normal;
-            font-weight: 800;
+            font-weight: 700;
             line-height: 64px;
         }
         .fat{
@@ -136,7 +136,7 @@ $btnjoin: #F63;
             font-family: 'Mont', sans-serif;
             font-size: 60px;
             font-style: normal;
-            font-weight: 800;
+            font-weight: 700;
             line-height: 64px;
             margin-bottom: 25px;
         }
@@ -145,13 +145,12 @@ $btnjoin: #F63;
             display: flex;
             flex-wrap: nowrap;
             font-family: 'Mont', sans-serif;
-            font-size: 25px;
+            font-size: 20px;
             font-style: normal;
-            font-weight: 700;
+            font-weight: 600;
             line-height: normal;
-            margin-bottom: 45px;
+            margin-bottom: 55px;
             width: 600px;
-            margin-right: -150px;
         }
         .btn-pars{
             display: flex;
@@ -210,8 +209,13 @@ $btnjoin: #F63;
     .div-sctone-2{
         display: flex;
         position: relative;
-        padding: 34.7px 52.44px 0px;
+        padding: 34.7px 0px 0px;
     }
+.screens{
+    display: flex;
+    position: relative;
+    right: 60px;
+}
     .threesteps{
         display: flex;
         justify-content: center;
@@ -219,7 +223,7 @@ $btnjoin: #F63;
         width: 1180px;
         margin-bottom: 64px;
         font-size: 45px;
-        padding-bottom: 20px;
+        padding: 75px 0 20px;
         font-family: 'Mont', sans-serif;
 
     }
@@ -249,7 +253,7 @@ $btnjoin: #F63;
         color: #666;
         text-align: center;
         font-family: 'Mont', sans-serif;
-        font-size: 18px;
+        font-size: 17px;
         font-style: normal;
         font-weight: 400;
         line-height: 22px;
@@ -294,6 +298,7 @@ $btnjoin: #F63;
         line-height: 48px;
         letter-spacing: 0.4px;
         margin-bottom: 15px;
+        padding-top: 30px;
 
     }
     .parsctthree{
