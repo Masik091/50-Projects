@@ -456,7 +456,27 @@ $btnjoin: #F63;
     }
 
 
+@media screen and (max-width: 1280px) {
+    .sct-one .cfd-fat {
+        margin-right: 0;
+    }
+}
 
+@media screen and (max-width: 1040px) {
+    .div-sctone-2 {
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+        .div-sctone-2 img{
+            width: 100%;
+            height: auto;
+        }
+
+                .sct-one .cfd,
+                                .sct-one .fat { 
+                                    font-size: 32px;
+                                }
+}
     @media screen and (max-width: 768px) {
         .mob {
             display: flex;
@@ -465,7 +485,7 @@ $btnjoin: #F63;
             display: none;
         }
     }
-                @media screen and (min-width: 721px) {        
+                @media screen and (max-width: 721px) {        
                     .headertitle,
                     .pic2,
                     .pic3,
