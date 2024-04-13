@@ -30,7 +30,8 @@ $btnjoin: #F63;
     margin: 0 auto;
 }
 .sct-two{
-    margin-bottom: 130px;
+    padding-bottom: 130px;
+    background-image: url(./Images-last-test/background-lastetst.png);
 }
 .sct-two .commoncontainer {
     display: flex;
@@ -46,10 +47,9 @@ $btnjoin: #F63;
     display: flex;
     flex-direction: row;
     height: 72px;
-    padding: 0px 130px;
     align-items: center;
     background-color: #1A1A1A;
-    padding-left: 130px;
+    overflow-x: hidden;
 
     .divlogos{
         display: flex;
@@ -210,6 +210,8 @@ $btnjoin: #F63;
         display: flex;
         position: relative;
         padding: 34.7px 0px 0px;
+        align-items: flex-end;
+        justify-content: flex-end;
     }
 .screens{
     display: flex;
@@ -234,6 +236,9 @@ $btnjoin: #F63;
         justify-content: center;
         align-items: center;
     }
+    .icon-man{
+            background: inherit;
+        }
     .lineinlist{
         display: flex;
         width: 310px;
@@ -463,6 +468,95 @@ $btnjoin: #F63;
 }
 
 @media screen and (max-width: 1040px) {
+    .header{
+        padding-left: 50px;
+        padding-right: 50px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-bottom: 3px;
+    }
+    .header .one-btn{
+        margin-top: 15px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 15px;
+        letter-spacing: .15px;
+        height: 37px;
+    }
+    .header .btnprg{
+        margin-top: 3px;
+    }
+    .header .divlogos{
+        margin-right: 0;
+    }
+    .header .headertitle{
+        margin-right: 0;
+    }
+    .commoncontainer{
+        width: 100%;
+    }
+    .sct-one{
+        justify-content: center;
+        align-items: center;
+        padding-left: 50px;
+        overflow-x: hidden;
+    }
+    .sct-one .cfd,
+    .sct-one .fat {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+    }
+    .sct-one .sct-one-par{
+        font-size: 16px;
+    }
+    .sct-one .par-sub2{
+        font-size: 14px;
+    }
+    .btn-pars .get-started{
+        width: 360px;
+        height: 60px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    .sct-two{
+        padding: 30px 50px 90px;
+        overflow-x: hidden;
+    }
+    .sct-two .threesteps{
+        width: 100%;
+        font-size: 40px;
+    }
+    .firstlistsmalltitle{
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .thirdlist{
+        gap: 100px;
+    }
+    .sublistthree{
+        text-wrap: nowrap;
+    }
+    .firstlistpar{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 19px;
+        padding-left: 15px;
+    }
+    .parsctthree{
+        font-size: 20px;
+    }
+    .platform{
+    font-size: 25px;
+}
+    .platform-par{
+        font-size: 18px;
+    }
     .div-sctone-2 {
         align-items: flex-end;
         justify-content: flex-end;
@@ -471,11 +565,51 @@ $btnjoin: #F63;
             width: 100%;
             height: auto;
         }
-
-                .sct-one .cfd,
-                                .sct-one .fat { 
-                                    font-size: 32px;
-                                }
+    .sct-three{
+        overflow-x: hidden;
+    }
+    .sct-three .btnjoin{
+        font-size: 20px;
+        font-weight: 800;
+        width: 350px;
+        height: 60px;
+        margin: 2px auto 10px;
+    }
+    .sct-three .btnprg-2{
+        font-size: 13px;
+        font-style: italic;
+        font-weight: 800;
+        line-height: 11px;
+        padding-bottom: 50px;
+    }
+    .sectionthreetitle{
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: .2px;
+        margin-bottom: 10px;
+    }
+    .sct-four{
+        padding: 0 50px 0;
+        overflow-x: hidden;
+    }
+    .faq{
+        font-size: 35px;
+    }
+    .sct-four .faq{
+        padding-bottom: 0;
+    }
+        .sct-four .commoncfd{
+            row-gap: 35px;
+        }
+    .sct-four .footertext{
+        font-size: 25px;
+    }
+    .sct-four .footertext-2{
+        font-size: 19px;
+    }
+    .sct-four .smalltext{
+        font-size: 16px;
+    }
 }
     @media screen and (max-width: 768px) {
         .mob {
@@ -623,6 +757,7 @@ $btnjoin: #F63;
                     .firstlistpar{
                         font-size: 14px;
                         width: 100%;
+                        
                     }
                     .thirdlist{
                         padding: 0px;
