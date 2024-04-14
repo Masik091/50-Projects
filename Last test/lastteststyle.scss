@@ -239,13 +239,15 @@ $btnjoin: #F63;
         border-radius: 50px;
         background: white;
         padding-top: 4px;
+        width: 960px;
+        margin-left: 100px;
     }
     .icon-man{
             background: inherit;
         }
     .lineinlist{
         display: flex;
-        width: 310px;
+        width: 330px;
     }
     .firstlistsmalltitle{
         color: #000;
@@ -535,6 +537,11 @@ $btnjoin: #F63;
         width: 100%;
         font-size: 40px;
     }
+    .firstlist{
+        margin-left: 0;
+        width: 100%;
+    }
+  
     .firstlistsmalltitle{
         font-size: 20px;
         margin-bottom: 10px;
