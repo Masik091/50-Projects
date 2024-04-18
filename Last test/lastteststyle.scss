@@ -247,7 +247,7 @@ $btnjoin: #F63;
         }
     .lineinlist{
         display: flex;
-        width: 330px;
+        width: 100%;
     }
     .firstlistsmalltitle{
         color: #000;
@@ -474,6 +474,9 @@ $btnjoin: #F63;
 }
 
 @media screen and (max-width: 1040px) {
+    .header .headertitle {
+        width: 376px;
+    }
     .header{
         padding-left: 50px;
         padding-right: 50px;
