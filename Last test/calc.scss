@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+ul,
+div,
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+.backgroundcont{
+display: flex;
+justify-content: center;
+max-width: 1400px;
+height: auto;
+width: 100%;
+background: linear-gradient(circle, 252deg, rgba(96, 194, 226, 0.4172226123595506) 19%, rgba(14, 245, 0, 0.8273349719101124) 100%);
+}
+.generalcalc{
+display: flex;
+background-color: ;
+width: 385px;
+padding: 10px;
+border-radius: 6px;
+}
