@@ -58,7 +58,6 @@ flex-direction: column;
     "num4 num5 num6 numplus"
     "num7 num8 num9 nummin"
     "numdot num0 numequal numequal";
-    padding-top: 10px;
     background-color: aquamarine;
     width: 100%;
 }
@@ -158,6 +157,7 @@ flex-direction: column;
     padding: 20px 0 50px;
     
 }
-.lastnum{
-    background: #c5edc2;
+.numequal:hover{
+    background: #daf7f6;
+    transition: .3s ease-in-out;
 }
