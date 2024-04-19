@@ -15,15 +15,121 @@ p {
 .backgroundcont{
 display: flex;
 justify-content: center;
-max-width: 1400px;
-height: auto;
+height: 100vh;
+background-size: cover;
+min-height: 100%;
 width: 100%;
-background: linear-gradient(circle, 252deg, rgba(96, 194, 226, 0.4172226123595506) 19%, rgba(14, 245, 0, 0.8273349719101124) 100%);
+background: linear-gradient(252deg, rgba(96, 194, 226, 1) 19%, rgba(14, 245, 0, 1) 100%);
 }
 .generalcalc{
 display: flex;
-background-color: ;
-width: 385px;
+justify-content: center;
+align-items: center;
+width: 420px;
 padding: 10px;
-border-radius: 6px;
+flex-direction: column;
+}
+.calcinput{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.inputcalc{
+    background-color: #1c5318;
+    display: flex;
+    text-align: right;
+    width: 100%;
+    line-height: 120px;
+    font-size: 45px;
+    color: #fff;
+    padding: 0px 10px;
+    font-weight: 500;
+}
+.calcbtns{
+    display: grid;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "ac ac del divide"
+    "num1 num2 num3 numstar"
+    "num4 num5 num6 numplus"
+    "num7 num8 num9 nummin"
+    "numdot num0 numequal numequal";
+    gap: 3px;
+    padding-top: 10px;
+    background-color: aquamarine;
+    width: 100%;
+}
+.ac{
+    grid-area: ac;
+}
+.del{
+    grid-area: del;
+}
+.divide{
+    grid-area: divide;
+}
+.num1{
+    grid-area: num1;
+}
+.num2{
+    grid-area: num2;
+}
+.num3{
+    grid-area: num3;
+}
+.numstar{
+    grid-area: numstar;
+}
+.num4{
+    grid-area: num4;
+}
+.num5{
+    grid-area: num5;
+}
+.num6{
+    grid-area: num6;
+}
+.numplus{
+    grid-area: numplus;
+}
+.num7{
+    grid-area: num7;
+}
+.num8{
+    grid-area: num8;
+}
+.num9{
+    grid-area: num9;
+}
+.nummin{
+    grid-area: nummin;
+}
+.numdot{
+    grid-area: numdot;
+}
+.num0{
+    grid-area: num0;
+}
+.numequal{
+    grid-area: numequal;
+}
+.calcbtns div {
+    width: 100%;
+    height: 30px;
+}
+.num{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: black;
+    font-size: 40px;
+    padding: 20px 0 50px;
+    border-bottom: 3px solid #fff;
+}
+.lastnum{
+    background: #c5edc2;
 }
