@@ -58,64 +58,92 @@ flex-direction: column;
     "num4 num5 num6 numplus"
     "num7 num8 num9 nummin"
     "numdot num0 numequal numequal";
-    gap: 3px;
     padding-top: 10px;
     background-color: aquamarine;
     width: 100%;
 }
 .ac{
     grid-area: ac;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
 }
 .del{
     grid-area: del;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
 }
 .divide{
     grid-area: divide;
+    border-bottom: 3px solid #fff;
 }
 .num1{
     grid-area: num1;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
 }
 .num2{
     grid-area: num2;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
 }
 .num3{
     grid-area: num3;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
 }
 .numstar{
     grid-area: numstar;
+    border-bottom: 3px solid #fff;
 }
 .num4{
     grid-area: num4;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
 }
 .num5{
     grid-area: num5;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
 }
 .num6{
     grid-area: num6;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
 }
 .numplus{
     grid-area: numplus;
+    border-bottom: 3px solid #fff;
 }
 .num7{
     grid-area: num7;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
 }
 .num8{
     grid-area: num8;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
 }
 .num9{
     grid-area: num9;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
 }
 .nummin{
     grid-area: nummin;
+    border-bottom: 3px solid #fff;
 }
 .numdot{
     grid-area: numdot;
+    border-right: 3px solid #fff;
 }
 .num0{
     grid-area: num0;
+    border-right: 3px solid #fff;
 }
 .numequal{
     grid-area: numequal;
+    margin-left: 3px;
 }
 .calcbtns div {
     width: 100%;
@@ -128,7 +156,7 @@ flex-direction: column;
     color: black;
     font-size: 40px;
     padding: 20px 0 50px;
-    border-bottom: 3px solid #fff;
+    
 }
 .lastnum{
     background: #c5edc2;
