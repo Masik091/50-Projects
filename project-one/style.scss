@@ -1480,6 +1480,11 @@ position: relative;
     height: 200px;
     overflow: hidden; 
 }
+
+// Ця властивість надає можливість скролити сторінку за допомогою Якоря в тому режимі, який мені потрібно, в цьому випадку "м'яко"
+html {
+    scroll-behavior: smooth;
+}
 .visiblebtn1{
     display: flex;
     flex-direction: column;
